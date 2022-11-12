@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #CEC0A3;
+}
+
+.button {
+    border-radius: 50px;
+    background-color: #CEC0A3;
+    border: 1;
+    margin-top: 5px;
+}
+
+.nav-link.hoover {
+    color: yellow;
+}
+
+.button:Hoover {
+    color: yellow;
+}
