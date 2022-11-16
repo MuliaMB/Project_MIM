@@ -1,10 +1,17 @@
+/* navbar */
+
+*{
+    list-style: none;
+}
+
 .navbar {
-    background-color: #CEC0A3;
+    background-color: #515585;
+    justify-content: right;
 }
 
 .button {
     border-radius: 50px;
-    background-color: #CEC0A3;
+    background-color: #515585;
     border: 1;
     margin-top: 5px;
 }
@@ -13,6 +20,111 @@
     color: yellow;
 }
 
-.button:Hoover {
-    color: yellow;
+.nav-link:hover {
+    color: #46B5D1 !important;
 }
+
+.nav-item {
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* ----------------------------------
+ Footer
+--------------------------------------*/
+.footer-top {
+    padding: 50px 0 20px;
+    border-top: 1px solid var(--border-color-2);
+}
+
+.footer-item {
+    margin: 0 0 30px;
+}
+
+.footer-item h3 {
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+
+.footer-item .footer-logo {
+    color: var(--black-70);
+    text-transform: uppercase;
+}
+
+.footer-item .footer-logo span {
+    color: var(--main-color);
+}
+
+.footer-item ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.footer-item ul li i {
+    /* position: absolute; */
+    left: 0;
+    top: 6px;
+    color: var(--black-70);
+    /* font-size: 12px; */
+}
+
+.footer-item ul li span {
+    position: relative;
+    /* font-size: 14px; */
+    /* padding: 0 0 0 20px; */
+    margin: 0 10px;
+    left: 0;
+    top: 0;
+}
+
+.footer-item ul a {
+    text-transform: capitalize;
+    color: var(--black-70);
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.footer-item ul a:hover {
+    color: var(--main-color);
+}
+
+.footer-item ul a::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 0%;
+    height: 1px;
+    background-color: var(--main-color);
+    transition: width 0.3s ease;
+}
+
+.footer-item ul a:hover::before {
+    width: 100%;
+}
+
+.footer-item ul a .social-icon {
+    margin-right: 5px;
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--border-color-2);
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+/* Footer end */
+
+nav {
+    padding: 10px;
+}
+
+/* navbar */
+
+/*-- tertunda --*/
+
+/* body {
+    background-color: #515585 ;
+} */
